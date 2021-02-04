@@ -1,6 +1,6 @@
 # IQ-Quizzes
 
-<h2>IQ Quizzes Project With HTML,CSS and Javascript.</h2>
+<b>IQ Quizzes Project With HTML,CSS and Javascript.</b>
 - Admin Panel ( create user, udate user, delete user )
 - Activity (previous quizzes)
 - Public Comments
