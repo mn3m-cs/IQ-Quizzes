@@ -1,0 +1,105 @@
+<html>
+    <head>
+        <title>
+                Edit  User  
+        </title>
+        <script src="../../share files/projectModels.js" ></script>
+        <script src="../../share files/Projectservice.js" ></script>
+        <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <script defer src="./editUser.js"></script>
+        <link rel="stylesheet" href="./editUser.css">
+        
+    </head>
+    <html>
+        <div id="navbardiv"  class="topnav">
+            <a class="active" href="../../Home/Index/HomeIndex.html">Home</a>
+        </div>
+        <br>
+        <br>
+        <div id="Content">
+            <div>
+                    <div class="row">
+                      <div class="col-25">
+                        <label for="ID">ID :</label>
+                      </div>
+                      <div class="col-75">
+                        <input type="number" id="ID" name="ID" readonly>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-25">
+                        <label for="FullName">FullName :</label>
+                      </div>
+                      <div class="col-75">
+                        <input type="text" id="FullName" name="FullName"  >
+                      </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25" >
+                          <label for="Phone" >Phone :</label>
+                        </div>
+                        <div class="col-75">
+                          <input type="text" id="Phone" name="Phone"   >
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-25">
+                          <label for="Email">Email :</label>
+                        </div>
+                        <div class="col-75">
+                          <input type="email" id="Email" name="Email" >
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-25">
+                          <label for="UserName">UserName :</label>
+                        </div>
+                        <div class="col-75">
+                          <input type="text" id="UserName" name="UserName" >
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-25">
+                          <label for="password">password :</label>
+                        </div>
+                        <div class="col-75">
+                          <input type="password" id="password" name="password" >
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-25">
+                          <label for="ConfirmPassword">ConfirmPassword :</label>
+                        </div>
+                        <div class="col-75">
+                          <input type="password" id="ConfirmPassword" name="ConfirmPassword" >
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-25">
+                          <label for="Rate">Rate :</label>
+                        </div>
+                        <div class="col-75">
+                          <input type="number" id="Rate" name="Rate" readonly >
+                        </div>
+                      </div>
+                    <div id="isAdminRow" class="row">
+                      <div class="col-25">
+                        <label for="IsAdmin">IsAdmin</label>
+                      </div>
+                      <div class="col-75">
+                        <input type="checkbox" id="IsAdmin" name="IsAdmin"  >
+                        </select>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <input type="button" value="Edit" id="EditBtn" >
+                    </div>    
+                    <div class="row">
+                      <input type="button" value="Back" id="BackBtn" >
+                    </div>                
+              </div>
+      </div>
+    </html>
+</html>

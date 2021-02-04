@@ -1,0 +1,136 @@
+<html>
+    <head>
+        <title>
+            Home 
+        </title>
+        <script src="../../share files/projectModels.js" ></script>
+        <script src="../../share files/Projectservice.js" ></script>
+        <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <link rel="stylesheet" href="HomeIndex.css">
+        <script defer src="./HomeIndex.js"></script>
+    </head>
+    <body>
+
+        <div id="navbardiv"  class="topnav">
+        </div>
+        <div id="boxDiv" >
+        </div>
+        <div id="loginDiv">
+            <div id="Title">
+                <h1> Login </h1>
+            </div>
+            <label>
+                Username:
+            </label> 
+        <input type="text" id="Username" name="Username" />
+        <br/>
+        <label>
+            Password:
+        </label> 
+        <input type="password" id="Password" name="Password" />
+        <br/>
+        <input type="button" id="loginbtn" onclick="login()" value="login"/>
+        <br/>
+        <input type="button" id="cancelbtn" value="Cancel" />
+        </div>
+        <div id="navbardiv"  class="topnav"> </div>
+        </div>
+        <div id="Content">
+        <div id="Title">
+            <h1> IQ Measuring System </h1>
+        </div>
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 3</div>
+              <img src="../../share files/image/image1.jpg" style="width:100%">
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 3</div>
+              <img src="../../share files/image/image2.jpg" style="width:100%">
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 3</div>
+              <img src="../../share files/image/image3.jpg" style="width:100%">
+            </div>
+            
+            </div>
+            <br>
+            
+            <div style="text-align:center">
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+            </div>
+            
+        <div id="paragraph">        
+        <p>
+           <span id='whatIsIQ'> What is an IQ test?</span> <br>
+            IQ is an abbreviation of Intelligence Quotient. So, OK, but what is IQ? The IQ is a measurement of your intelligence and is expressed in a number. It’s an estimate also, there will always be a given amount of measurement error.
+            A person’s IQ can be calculated by having the person take an intelligence test. The average IQ is 100 by definition. If you achieve a score higher than 100, you did better than the average person, and a lower score means you (somewhat) performed less.       
+            
+            <br><span id='whatIsIQ'>  What is a good IQ score?</span> <br>
+           
+            The average IQ score is always 100, and your personal score tells you your IQ ranking compared to the average. IQ scores are based on comparisons with other people who took the test: the norm group. As 100 is the average score, your score tells you how your IQ score ranks compared to other people. Most people score between 85 and 115.
+            
+            About 2% of the population has an IQ score lower than 69. Such a low IQ score often is hard to measure using a regular intelligence test. Very high IQ scores, say over 150, are also hard to determine accurately. This is because you need a lot of reference measurements to determine a specific score reliably. As very high and very low IQ scores simply do not occur often, it is hard to form such a reference group.
+            <br><span id='whatIsIQ'>  Can I practice IQ tests?</span> <br>
+            
+            You can practice IQ tests, it will not make you more intelligent but it will increase your IQ score on a job test for example. Be sure to try any IQ test we offer for free in our IQ tests section. Especially for assessment preparation this will be very useful!
+            
+            <br><span id='whatIsIQ'> What IQ test types are there?</span> <br>
+
+            In a classic IQ test you will generally find questions related to numerical reasoning, logical reasoning, verbal intelligence and spatial intelligence. An IQ test that primarily measures abstract reasoning, either inductive or deductive, will often be a non-verbal IQ test. The latter is then called culture-fair because of that.
+            
+            Both classic and non-verbal IQ tests make for valid and reliable IQ score measurements, although their definitions of intelligence do vary. Generally an IQ test consisting of more questions will have a higher reliability than shorter tests.
+            
+        </p>
+        <a href="https://simple.wikipedia.org/wiki/Intelligence_quotient" target="_blank" ><input type="button" value="More inFormation"></a>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    
+    <div id="Title">
+        <h1> Top Rated User </h1>
+    </div>
+        <table id="showUsersTable">
+            <tr>
+               <th>
+                   ID
+               </th> 
+               <th>
+                  FullName 
+               </th> 
+                <th>
+                    UserName 
+                </th> 
+                <th>
+                     Rate 
+                </th> 
+            </tr>
+        </table>
+
+        <div id="Title">
+            <h1> Comments </h1>
+        </div>
+        <div>
+            <textarea id="commentText" ></textarea>
+            <input type="button" id="addComment" onclick="addComment()" value="Add Comment">
+            <div id="Title">
+                <h1> Comments Box </h1>
+            </div>
+            <br>
+            <div id="messagesBox">
+
+            </div>
+        </div>
+      </div>
+    </body>
+
+</html>

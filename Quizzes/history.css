@@ -1,0 +1,93 @@
+table{
+    border-collapse:collapse;
+    text-align:center;
+    padding:10px;
+    margin-left: 3.5%;
+}
+
+tr,td,th{
+    border:3px solid black;
+    border-collapse:collapse;
+    text-align:center;
+    padding:10px;
+    min-width: 150px;
+    height: 50px;
+    font-size: 1.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+th{
+    background-color: 	#d2544a;
+}
+td{
+    padding:10px;
+}
+
+table{
+    display:none;
+}
+
+.reviewLink{
+    text-decoration: underline;
+    color:rgba(11, 11, 236, 0.856);
+    cursor:pointer;
+}
+
+#historyTitle{
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    font-family: monospace;
+    margin-left:410px;
+    line-height:90px;
+}
+
+#backHome{
+    /* background-color: yellow; */
+    font-size: 28px;
+    font-weight: bold;
+    font-family: monospace;
+}
+#backHome a{
+    text-decoration: none;
+}
+
+#historyDiv{
+    margin-top:80px;
+    min-height:200px;
+}
+
+#rate{
+    position: absolute;
+    background-color: gold;
+    right: 0;
+    top: 0;
+    height:70px;
+    width:230px;
+    margin-top: 17px;
+    margin-right: 15px;
+    text-align: center;
+    line-height:70px;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+.noReview{
+    margin-top: 100px;
+    margin-left: 350px;
+    height: 200px;
+    width: 50%;
+    background-color:blanchedalmond;
+    padding: 15px;
+    text-align: center;
+    line-height:100px;
+    font-family: monospace;
+    font-size: 40px
+}
+
+
+#titles{
+    background-color: #6F8197;
+}
+
+

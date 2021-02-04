@@ -1,0 +1,104 @@
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #34626c;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #839b97;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #839b97;
+    color: white;
+  }
+
+#showUsersTable {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #showUsersTable td , #showUsersTable th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    font-size: 15px;
+  }
+  
+  #showUsersTable tr:nth-child(Even)
+  {
+      background-color: #f2f2f2;
+  }
+  
+  #showUsersTable tr:nth-child(Odd)
+  {
+      background-color:cadetblue;
+  }
+  #showUsersTable tr:hover {background-color: #c6b497;}
+  
+  #showUsersTable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color:cadetblue;
+    color: white;
+  }
+  #Content
+  {
+      width: 90%;
+      margin: auto;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      
+  }
+  body
+  {
+      background-color: #cfd3ce;
+  }
+  #CreatUser
+  {
+    background-color:#34626c;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    font-size: x-large;
+    margin: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: whitesmoke;
+  }
+  #CreatUser:hover
+  {
+    background-color:#cfd3ce;
+    color:black;
+  }
+  .actionBtn
+  {
+    background-color:#34626c;
+    width: 80px;
+    height: 40px;
+    text-align: center;
+    font-size: large;
+    margin: 2px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: whitesmoke;
+  }
+  .actionBtn:hover
+  {
+    background-color:#cfd3ce;
+    color:black;
+  }
+
+  

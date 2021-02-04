@@ -1,0 +1,127 @@
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #34626c;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #839b97;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #839b97;
+    color: white;
+  }
+
+#UsersTable {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #UsersTable td , #UsersTable th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  #UsersTable tr:nth-child(Even)
+  {
+      background-color: #f2f2f2;
+  }
+  
+  #UsersTable tr:nth-child(Odd)
+  {
+      background-color:cadetblue;
+  }
+  #UsersTable tr:hover {background-color: #c6b497;}
+  
+  #UsersTable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color:cadetblue;
+    color: white;
+  }
+  #Content
+  {
+      margin-top: 100px;
+      width: 90%;
+      margin: auto;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      
+  }
+  body
+  {
+      background-color: #cfd3ce;
+  }
+  /* form */
+  * {
+    box-sizing: border-box;
+  }
+  
+  input, select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  label {
+    padding: 12px 12px 12px 12px;
+    display: inline-block;
+  }
+  
+  input[type=submit],input[type=button] {
+    background-color: #34626c;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    margin: 5px;
+  }
+
+  input[type=submit]:hover,input[type=button]:hover {
+    background-color: #c6b497;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }

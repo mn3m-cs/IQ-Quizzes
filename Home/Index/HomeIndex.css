@@ -1,0 +1,288 @@
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  height:  400px;
+  overflow:hidden;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+input[type=submit],input[type=button] {
+  background-color: #6f8197;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+  width: 100%;
+  color: black;
+  font-size: larger;
+}
+
+input[type=submit]:hover,input[type=button]:hover {
+  background-color: #c6b497;
+  color: #6f8197;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #6f8197;
+    overflow: hidden;
+  }
+
+  #Title  h1
+  {
+    /* border: 2px solid black; */
+     text-align: center;
+     color:#1c375b; 
+  }
+  #logoutlink{
+    float: right;
+    background-color: 	#d2544a;
+  }
+  .userName{
+    float: right;
+    position: absolute;
+    right: 80;
+  }
+  #paragraph p
+  {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    padding: 20px;
+    margin-left: 10px;
+    line-height: 2.5;
+    font-size:1.3rem;
+  }
+  #whatIsIQ{
+    color: rgb(14, 130, 224);
+    font-size:1.5rem;
+  }
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #1c375b;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #1c375b;
+    color: white;
+  }
+
+#showUsersTable {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #showUsersTable td , #showUsersTable th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    font-size: 15px;
+  }
+  
+  #showUsersTable tr:nth-child(Even)
+  {
+      background-color: #f2f2f2;
+  }
+  
+  /* #showUsersTable tr:nth-child(Odd)
+  {
+      background-color:cadetblue;
+  } */
+  #showUsersTable tr:hover {background-color: #c6b497;}
+  
+  #showUsersTable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color:#6f8197;
+    color: white;
+  }
+  #Content
+  {
+      width: 90%;
+      margin: auto;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      
+  }
+  /* body
+  {
+      background-color: #cfd3ce;
+  } */
+  input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    margin-top: 10px;
+  }
+  
+  label {
+    padding: 12px 12px 12px 12px;
+    display: inline-block;
+  }
+  textarea 
+  {
+    width: 100%;
+    height: 200px;
+  }
+  #boxDiv {
+
+    width: 100%;
+    height: 100%;
+    display:none;
+    position: absolute;
+    z-index:100;
+    background-color: #1c375b;
+    opacity: 0.6;  
+    }
+    
+    #loginDiv
+    {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      border: 2px solid black;
+    padding: 10px;
+    z-index: 102;
+    display:none;
+    width: 400px;
+    background-color: #cfd3ce;
+    opacity: 1;  
+    
+    }
+    .oneComment{
+      background-color:beige;
+      margin:20px;
+      border-radius: 5px;
+    }
+    #msgDate{
+      font-size:12px;
+      color:gray;
+      margin-bottom: 15px;
+    }
+    #commenter{
+      background-color:orange;
+      font-family: monospace;
+
+    }
+    .commentMessageInformation
+    {
+      width: 30%;
+      /* background-color: #c6b497; */
+      /* color:#6f8197; */
+      /* border: 2px solid #1c375b; */
+      /* font-weight: bolder; */
+      text-align: left;
+      font-size: larger;
+      margin-bottom: 5px;
+    }
+    .commentMessageContent
+    {
+      color:black;
+      font-weight: bold;
+      font-size: large;
+      margin-bottom: 15px;
+
+    }
+    .commentMessageDelete
+    {
+      /* width: 100%; */
+      /* background-color: #6f8197; */
+      color:black;
+      /* border: 2px solid black; */
+      font-weight: bold;
+      margin-bottom: 10px;
+
+    }
+    .commentMessageDelete:hover
+    {
+      width: 100%;
+      background-color: #c6b497;
+      color:#6f8197;
+      border: 2px solid black;
+      font-size: larger;
+    }
+
+
+  #reg{
+      float: right;
+    }
+  #loginlink{
+  float: right;
+}

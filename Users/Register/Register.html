@@ -1,0 +1,84 @@
+<html>
+    <head>
+        <title>
+            Register
+        </title>
+        <script src="../../share files/projectModels.js" ></script>
+        <script src="../../share files/Projectservice.js" ></script>
+        <script defer src="./Register.js"></script>
+        <link rel="stylesheet" href="./Register.css">
+
+    </head>
+    <html>
+        <div id="navbardiv"  class="topnav">
+            <a class="active" href="../../Home/Index/HomeIndex.html">Home</a>
+            <a href="#">Register</a>
+        </div>
+        <br>
+        <br>
+        <div id="Content">
+            <div>
+                    <div class="row">
+                      <div class="col-25">
+                        <label for="ID">ID :</label>
+                      </div>
+                      <div class="col-75">
+                        <input type="number" id="ID" name="ID" readonly placeholder="Your ID..">
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-25">
+                        <label for="FullName">FullName :</label>
+                      </div>
+                      <div class="col-75">
+                        <input type="text" id="FullName" name="FullName" onblur="FullNameCheck()" onfocus="InputActive('FullName')" placeholder="Your Full Name ..">
+                      </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25" >
+                          <label for="Phone" >Phone :</label>
+                        </div>
+                        <div class="col-75">
+                          <input type="text" id="Phone" name="Phone" onblur="PhoneCheck()" onfocus="InputActive('Phone')" placeholder="Your  Phone ..">
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-25">
+                          <label for="Email">Email :</label>
+                        </div>
+                        <div class="col-75">
+                          <input type="email" id="Email" name="Email" onblur="EmailCheck()" onfocus="InputActive('Email')" placeholder="Your Email ..">
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-25">
+                          <label for="UserName">UserName :</label>
+                        </div>
+                        <div class="col-75">
+                          <input type="text" id="UserName" name="UserName" onblur="UserNameCheck()" onfocus="InputActive('UserName')" placeholder="Your UserName ..">
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-25">
+                          <label for="password">password :</label>
+                        </div>
+                        <div class="col-75">
+                          <input type="password" id="password" name="password" onblur="PasswordCheck()" onfocus="InputActive('password')" placeholder="Your password ..">
+                        </div>
+                      </div>
+                        <div class="row">
+                          <div class="col-25">
+                            <label for="ConfirmPassword">ConfirmPassword :</label>
+                          </div>
+                          <div class="col-75">
+                            <input type="password" id="ConfirmPassword" name="ConfirmPassword" onblur="ConfirmPasswordCheck()" onfocus="InputActive('ConfirmPassword')" placeholder="Your ConfirmPassword ..">
+                          </div>
+                      </div>
+                    <div class="row">
+                      <input type="button" onclick="SubmitForm()" value="Create" >
+                      <input type="button" value="Back" onclick="window.location.href='../../Home/Index/HomeIndex.html'" >
+                    </div>                
+              </div>
+      </div>
+    </html>
+</html>

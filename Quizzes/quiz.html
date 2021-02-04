@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"/>
+    <script src="https://code.jquery.com/jquery-1.12.4.js" defer></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js" defer></script>
+    <script src="../share files/Projectservice.js" defer></script>
+    <script src="classes.js" defer></script>
+    <script src="quiz.js" defer></script>
+    <link rel="stylesheet" href="quiz.css" />
+  </head>
+  <body>
+    <div id="myBody">
+      <div id="cover">
+        <h1 style='text-align:center;line-height:300px;font-size:5rem;color:white;'>
+          
+          START THE QUIZ</h1>
+      </div>
+      <div id="startInstructions">
+        <pre>
+Once you click start, the timer will start count down 10 minutes,
+you should answer the 10 questions in 10 minutes.
+Best Wishes
+        </pre>
+      </div>
+      <button id="startQuiz">Start Quiz</button>
+
+      <div id="quizContainer"></div>
+    </div>
+
+    <div id="result"></div>
+  </body>
+</html>

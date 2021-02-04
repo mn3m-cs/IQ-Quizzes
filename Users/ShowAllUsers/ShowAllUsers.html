@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <title>
+            ShowAllUsers
+        </title>
+        <script src="../../share files/projectModels.js" ></script>
+        <script src="../../share files/Projectservice.js" ></script>
+        <link rel="stylesheet" href="ShowAllUsers.css">
+        <script defer src="./ShowAllUsers.js"></script>
+
+    </head>
+    <div id="navbardiv"  class="topnav">
+        <a class="active" href="../../Home/Index/HomeIndex.html">Home</a>
+        <a href="#">Users</a>
+        <a href="#" onclick="logout()" >Logout</a>
+    </div>
+    
+        <div id="Content">
+        <button id="CreatUser" onclick="window.location.href='../createUser/createUser.html'">Create User</button>
+        <table id="showUsersTable">
+            <tr>
+               <th>
+                   ID
+               </th> 
+               <th>
+                  FullName 
+               </th> 
+               <th>
+                     Phone 
+                </th> 
+                <th>
+                    Email
+                </th> 
+                <th>
+                    UserName 
+                </th> 
+                <th>
+                    PassWord 
+                </th> 
+                <th>
+                    Rate 
+                 </th> 
+                 <th>
+                    IsAdmin
+                 </th>
+                 <th>
+                     Actions
+                 </th>
+            </tr>    
+        </table>
+      </div>
+</html>

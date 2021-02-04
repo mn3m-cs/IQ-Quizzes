@@ -1,0 +1,105 @@
+#quizContainer{
+    display: flex;
+    background-color:aliceblue;
+    width:70%;
+    flex-direction: column;   
+    margin-left: 16%;
+    padding:30px;
+    margin-top: 90px;
+    
+}
+#quizContainer div{ /* questions in quiz*/
+    height: 230px;
+    border: 1px solid forestgreen;
+    margin-bottom: 20px;
+    padding-left: 15px;
+    padding-top: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.3rem;
+}
+
+
+
+#quizContainer div li {
+    margin-top:15px;
+    
+}
+
+#quizContainer div ul {
+    list-style-type: none;
+
+}
+
+#quizContainer div label{
+    margin-left:8px;
+}
+
+
+#cover{
+    height:300px;
+    background-color: tomato;
+}
+
+#startQuiz {
+    float: right;
+    width:150px;
+    height:60px;
+    background-color:rgb(51, 194, 146);
+    margin-top: 10px;
+    margin-right: 10px;
+    font-size:1.3rem;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 10px;    
+}
+
+
+#myBody{
+    width: 80%;
+    margin-left: 130px;
+}
+
+body{
+    background-color:antiquewhite
+}
+
+.timer{
+    height:150px;
+    width:170px;
+    background-color:black;
+    color:white;
+    float: right;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 20px;
+    right:5px;
+    display:none;
+    text-align: center;
+    line-height: 150px;
+    font-size: 3rem;
+    font-family:'Courier New', Courier, monospace;
+    
+}
+
+
+.submitButton{
+    float: right;
+    height:60px;
+    width:186px;
+    background-color:rgb(51, 194, 146);
+    margin-left: 659px;
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.8rem;
+}
+
+
+#result p{
+    text-align: center;
+    font-size:larger;
+
+}
+/* hide close button on dialog*/
+.ui-dialog-titlebar-close {
+    visibility: hidden;
+}

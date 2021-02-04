@@ -1,0 +1,54 @@
+.questionDiv {
+  height: 230px;
+  border: 1px solid forestgreen;
+  margin-bottom: 20px;
+  padding-left: 15px;
+  padding-top: 15px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 1.3rem;
+}
+
+.questionDiv  li {
+  margin-top: 15px;
+}
+
+.questionDiv  ul {
+  list-style-type: none;
+}
+
+.questionDiv  label {
+  margin-left: 8px;
+}
+
+.correctAnswer{
+  color:green;
+  font-weight:bold;
+
+}
+
+.correctQuestion{
+  background-color:rgba(166, 255, 225, 0.344);
+
+}
+
+.wrongQuestion{
+  background-color:rgba(223, 176, 186, 0.363)
+}
+
+.answerFeedback{
+  background-color:rgba(0, 192, 90, 0.781);
+}
+
+
+.score{
+  display: inline-block;
+  margin-bottom:10px;
+  margin-left: 80%;
+  background-color: turquoise;
+  width:150px;
+  height:50px;
+  text-align:center;
+  line-height:50px;
+  font-size: 1.3rem;
+
+}
